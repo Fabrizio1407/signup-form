@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    font-family: "Norse", Arial, Helvetica, sans-serif;
+}
+
+#imagespace {
+    flex: 1;
+    background-image: url('pexels-pixabay-41951.jpg');
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    height: 300px;
+    background-color: rgb(0, 0, 0,0.3);
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.odino {
+    width: 200px;
+}
+
+.know {
+    font-style: italic;
+}
+
+#formspace {
+    flex:2;
+    background-color: aliceblue;
+}
+
+#text-header {
+    padding: 50px;
+}
+
+#form-div {
+    background-color: white;
+    padding: 30px;
+    margin: 0;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldblock {
+    display: flex;
+    gap: 50px;
+    margin: 5px;
+}
+
+.fieldcol {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+input {
+    border: 1px solid gray;
+    font-size: 30px;
+    color: slateblue;
+    padding: 3px 10px ;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 5px 5px 5px black;
+}
+
