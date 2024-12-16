@@ -48,7 +48,7 @@ img.odino {
     background-color: white;
     padding: 30px;
     margin: 0;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px gainsboro;
     display: flex;
     flex-direction: column;
 }
@@ -80,7 +80,39 @@ input {
 }
 
 input:focus {
-    border: 1px solid blue;
-    box-shadow: 5px 5px 5px black;
+    outline: 2px solid maroon;
+    background-color: yellow;
+    box-shadow: 5px 5px 5px grey;
 }
 
+input:hover {
+    background-color: antiquewhite;
+}
+
+button {
+    margin: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    border: 2px solid green;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+#email:invalid,
+#password:invalid,
+#confirmpassword:invalid {
+    border: 2px solid red;
+}
